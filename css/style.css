@@ -1,0 +1,60 @@
+h1,h2,h3,h4,h5,h6,p {
+    margin:0 !important;
+}
+.moment-btn {
+    border-radius:0;
+}
+.package-list i {
+    margin:5px;
+    background:gray;
+    color:white;
+    padding:.2rem;
+    border-radius:30px;
+    font-size:12px;
+}
+.card-3 {
+    border-radius:30px 30px 30px 30px;
+}
+small {
+    margin:0 !important;
+    padding:0;
+    font-size:10px;
+}
+span {
+    font-size:15px;
+    margin:0 !important;
+}
+button.download-btn {
+    padding-top:0 !important;
+    padding-bottom: !important;
+}
+
+p {
+    margin:10px 0 !important;
+}
+
+
+
+
+
+@media (max-width:768px){
+    .moment .row {
+        flex-flow:column-reverse;
+    
+    }
+    .client-review .card .card-body{
+        flex-flow:column-reverse;
+        display:flex;
+    }
+    .question .row {
+        flex-flow:column-reverse;
+    }
+}
+
+@media (max-width:576px) {
+    .footer .row .col-12{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+}
